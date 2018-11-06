@@ -20,7 +20,7 @@ typedef struct list_t{
 list_t * list_new(); //creat a new list
 
 void list_destory(); //distory the list
-/*
+
 list_node * list_rpop(list_t * alist); //pop the last node of the list
 
 list_node * list_lpop(list_t * alist); //pop the first not null node of the list
@@ -31,9 +31,9 @@ list_node * list_lpush(list_t * alist, list_node * anode);
 list_node * list_rpush(list_t * alist, list_node * anode);
 
 //find the node with given value in the list
-list_node * list_find(list_t* alist, void * val);
+/*list_node * list_find(list_t* alist, void * val);*/
 
 //remove a node and free it.
 void * list_remove(list_t * alist, list_node *anode);
-*/
+
 #endif //LIST_H endif
